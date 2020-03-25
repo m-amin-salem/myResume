@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.first {
+  border: solid 1px white;
+  margin: 0 auto;
+  background-image: url("../images/background.jpg");
+  /* background-size: 200% auto; */
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-profile {
+  width: 50%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.first-image {
+  margin: 0 auto 100px;
+  width: 130px;
+  border-radius: 50%;
+  border: solid  3px #dfdfdf;;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
+}
+
+.second {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.third {
+  background-color: #f0f5f5;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0;
+}
+
+h1 {
+  font-size: 26px;
+  color: #3b6978;
+  margin: 30px auto;
+}
+
+h3 {
+  font-size: 30px;
+  color: #3b6978;
+  margin: 0 auto;
+}
+
+.second-profile {
+  font-size: 1.5em;
+  color: #84a9ac;
+  line-height: 2;
+}
+
+.third-info {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 0;
+}
+
+.third-info-first {
+  width: 100px;
+  font-size: 20px;
+  color: #204051;
+  margin-bottom: 3px;
+  font-style: italic;
+}
+
+.third-info-second {
+  width: 250px;
+  font-size: 20px;
+  color: #84a9ac;
+  margin: 20px 160px 3px 0;
+  font-style: italic;
+}
+
+.third-info-third {
+  width: 200px;
+  font-size: 20px;
+  color: #84a9ac;
+  margin-bottom: 3px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #84a9ac;
+}
+
+a:hover {
+  color: #204051;
+}
+
+.third-links a {
+  padding: 0 3%;
+}
+
+.fourth {
+  width: 100%;
+  margin: 0 auto 5%;
+  text-align: center;
+}
+
+.fourth-info {
+  width: 75%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.fourth-info-first {
+  margin: 10% 5% 0;
+}
+
+#fourth-info-first-img-1 {
+  float: left;
+  margin-right: 50px;
+}
+
+.fourth-info-first-p {
+  font-size: 1.5em;
+  color: #84a9ac;
+  line-height: 2;
+  text-align: left;
+  margin: 0;
+}
+
+#fourth-info-first-img-2 {
+  float: right;
+  margin-left: 50px;
+}
+
+.fifth {
+  background-color: #f0f5f5;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #3b6978;
+  text-align: center;
+  color: #cae8d5;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 5%;
+}
+
+ol li {
+  display: inline-block;
+  padding: 0 5%;
+}
