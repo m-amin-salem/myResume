@@ -5,85 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mohammed Amin's Resume</title>
     <link rel="icon" href="images\favicon.ico">
+    <!-- Google font: -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Lobster&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/57c978a18d.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
 
-    <div class="first">
-      <div class="first-profile">
-        <img class="first-image" src="images/profile.png" alt="mohammed amin">
+    <div class="profile-container">
+      <div class="profile">
+        <img class="profile-image" src="images/profile.png" alt="mohammed amin">
       </div>
     </div>
 
-    <div class="second">
+    <div class="hi-container">
       <h1>Hi</h1>
-      <div class="second-row">
-        <p  class="second-profile">
-          <em>I am a backend developer based in Cairo, Egypt.<br />
-          I build a server-side environment.</em>
-        </p>
+      <div class="row">
+        <div class="hi">
+          I am a backend developer based in Cairo, Egypt.<br>
+          I build a server-side environment.
+        </div>
       </div>
     </div>
 
-    <div class="third">
-
-      <h3>Personal Information</h3>
-
-        <div class="third-row">
-
-          <div class="third-col">
-            <p>Name: Mohammed Amin Salem.</p>
-            <p>Email: m.amin.salem@hotmail.com</p>
-          </div>
-
-          <div class="third-col">
-            <p>Location: Cairo, Egypt.</p>
-            <p>Tele: 002 0100 344 0010.</p>
-          </div>
-
+    <div class="personal-container">
+      <h1>Personal Information</h1>
+      <div class="row">
+        <div class="personal-left">
+          <p><strong>Name:</strong> <br> Mohammed Amin Salem.</p>
+          <p><strong>Email: </strong><br> m.amin.salem@hotmail.com</p>
         </div>
 
-      <div class="third-links">
-        <a href="https://github.com/m-amin-salem/" target="_blank"><img src="images/github.png" alt="github icon"></a>
-        <a href="https://www.linkedin.com/in/mohammed-salem-605b12107" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a>
-        <a href="https://twitter.com/M_AminSalem" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
-        <a href="https://www.facebook.com/profile.php?id=100043600669951" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
+        <div class="personal-right">
+          <p><strong>Location: </strong><br> Cairo, Egypt.</p>
+          <p><strong>Tele: </strong><br> 002 0100 344 0010.</p>
+        </div>
+      </div>
+
+      <div class="personal-links">
+        <ol>
+          <li><a href="https://github.com/m-amin-salem/" target="_blank"><img src="images/github.png" alt="github icon"></a></li>
+          <li><a href="https://www.linkedin.com/in/mohammed-amin-3391261a7/" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a></li>
+          <li><a href="https://twitter.com/M_AminSalem" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100043600669951" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a></li>
+        </ol>
       </div>
 
     </div>
 
-    <div class="fourth">
-      <div class="fourth-row">
+    <div class="skills-container">
+      <h1>My Skills</h1>
+      <div class="row">
 
-        <h3>My Skills</h3>
-
-        <div class="fourth-info-first">
-          <img id="fourth-info-first-img-1" src="images/code.png" alt="coding">
-          <p class="fourth-info-first-p" ><strong>Development:</strong></p>
-          <p class="fourth-info-first-p"><em> I use HTML, CSS, Bootstrap,
-            Node.JS, Express.JS and MonogoDB.</em>
+        <div class="skill">
+          <img class="img-left" src="images/code.png" alt="coding">
+          <p><strong>Development:</strong></p>
+          <p>
+            I develop interactive web applications utilizing HTML, CSS, Bootstrap,
+              JavaScript, jQuery, Node.JS, Express, EJS, JSON, MonogoDB, Mongoose, Passport.JS, OAuth
+              and build & integrating RESTful APIs with external web services.
           </p>
         </div>
 
-        <div class="fourth-info-first">
-          <img id="fourth-info-first-img-2" src="images/group.png" alt="team collaboration">
-          <p class="fourth-info-first-p" ><strong>Team Collaboration:</strong></p>
-          <p class="fourth-info-first-p"><em>Collaborating with the team based on a
-            Continuous Integration \ Continuous Delivery workflow.</em>
+        <div class="skill">
+          <img class="img-right" src="images/group.png" alt="team collaboration">
+          <p><strong>Professional:</strong></p>
+          <p>Troubleshooting, problem-solving, ownership, leadership and
+            team collaboration skills.
           </p>
         </div>
 
       </div>
     </div>
 
-    <div class="footer">
+    <div class="portfolio-container">
+      <h1>Portfolio</h1>
+      <div class="row">
+
+        <div class="portfolio">
+          <a href="https://m-amin-salem.github.io/tinDog/" target="_blank"><i class="fas fa-paw fa-3x icons"></i></a>
+          <p><strong>Tindog</strong></p>
+          <p>HTML, CSS, Bootstrap and JavaScript are used.</p>
+        </div>
+
+        <div class="portfolio">
+          <a href="https://m-amin-salem.github.io/game-simon/" target="_blank"><i class="fas fa-dice fa-3x icons"></i></a>
+          <p><strong>SIMON Game</strong></p>
+          <p>JavaScript & jQuery are used.</p>
+        </div>
+
+        <div class="portfolio">
+          <a href="https://secure-plateau-16102.herokuapp.com/" target="_blank"><i class="fas fa-list-ul  fa-3x icons"></i></a>
+          <p><strong>Todo List</strong></p>
+          <p>Node.JS, Express, EJS, MonogoDB & Mongoose are used.</p>
+        </div>
+
+        <div class="portfolio">
+          <a href="https://damp-atoll-26308.herokuapp.com/" target="_blank"><i class="fas fa-blog fa-3x icons"></i></a>
+          <p><strong>Blog</strong></p>
+          <p>RESTful API, Dynamic endpoints are used.</p>
+        </div>
+
+        <div class="portfolio">
+          <a href="https://fast-savannah-78725.herokuapp.com/" target="_blank"><i class="fas fa-key fa-3x icons"></i></a>
+          <p><strong>Secrets</strong></p>
+          <p>Passport.JS, OAuth, Google & Facebook login APIs are used.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-container">
       <ol>
         <li><a href="https://github.com/m-amin-salem/" target="_blank"><img src="images/github.png" alt="github icon"></a></li>
-        <li><a href="https://www.linkedin.com/in/mohammed-salem-605b12107" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a></li>
+        <li><a href="https://www.linkedin.com/in/mohammed-amin-3391261a7/" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a></li>
         <li><a href="https://twitter.com/M_AminSalem" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a></li>
         <li><a href="https://www.facebook.com/profile.php?id=100043600669951" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a></li>
       </ol>
       <p>Mohammed Amin © 2020.</p>
     </div>
+
   </body>
 </html>
